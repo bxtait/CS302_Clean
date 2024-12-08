@@ -1,0 +1,30 @@
+.header {
+    font-size: 40px;
+    -unity-font: url("project://database/Assets/Font/Fonts/Halant-Light.ttf?fileID=12800000&guid=bdddca05117374a4a9b8da3886e10949&type=3#Halant-Light");
+    -unity-text-align: upper-center;
+    margin-top: 80px;
+}
+
+.button {
+    font-size: 40px;
+    width: 350px;
+    height: 100px;
+    align-self: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url("project://database/Assets/Sprites/UI/UI.png?fileID=-155957525&guid=1217b69f2cbd24c50b830e12969a6b3e&type=3#UI_0");
+    margin-top: 100px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+    -unity-font: url("project://database/Assets/Font/Fonts/Halant-Medium.ttf?fileID=12800000&guid=6b8b8b55fbffb4a50b95d396a763e86c&type=3#Halant-Medium");
+    -unity-font-definition: initial;
+    transition-duration: 0.35s;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    -unity-background-image-tint-color: rgba(241, 241, 241, 0.8);
+}
